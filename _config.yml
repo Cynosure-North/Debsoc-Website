@@ -29,5 +29,27 @@ collections:
 
 url: "https://vicdebsoc.org.nz"
 
+optional_front_matter: # https://github.com/benbalter/jekyll-optional-front-matter
+  enabled: false  # We want to prevent errors, and enforce proper tagging
+
+readme_index: # https://github.com/benbalter/jekyll-readme-index
+  enabled: false
+
+titles_from_headings: #https://github.com/benbalter/jekyll-titles-from-headings
+  enabled: true
+
+plugins:
+  - jekyll-admin
+
+whitelist:
+  - jekyll-admin
+
+  
+jekyll_admin:
+  hidden_links:
+    - posts
+    - datafiles
+    - configuration
+
 # Build settings
 # TODO: RSS feed

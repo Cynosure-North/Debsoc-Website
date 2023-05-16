@@ -6,3 +6,18 @@ https://mikhail-yudin.ru/blog/frontend/jekyll-calendar-css-grid
 https://projectpages.github.io/
     
 https://jekyllrb.com/docs/configuration/default/
+
+Anchors
+https://github.com/allejo/jekyll-anchor-headings
+
+CMS
+https://github.com/jekyll/jekyll-admin
+Issues
+ - Can't build with github (maybe custom event?)
+ - Image Uploading
+ - Confusing mix of pages & static files
+ - Mandatory metadata
+ - Disable deletion of pages
+ - (maybe) disable creation of new pages
+
+Set up cron job to enable scheduled posts

@@ -38,13 +38,7 @@ readme_index: # https://github.com/benbalter/jekyll-readme-index
 titles_from_headings: #https://github.com/benbalter/jekyll-titles-from-headings
   enabled: true
 
-plugins:
-  - jekyll-admin
 
-whitelist:
-  - jekyll-admin
-
-  
 jekyll_admin:
   hidden_links:
     - posts

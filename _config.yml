@@ -22,9 +22,12 @@ collections:
     sort_by: event-start  # TODO
     output: true
   blog:
-    title:
     title: Blog
     permalink: /blog/:path # TODO
+    output: true
+  resources:
+    title: Resources
+    permalink: /resources/:path
     output: true
 
 url: "https://vicdebsoc.org.nz"

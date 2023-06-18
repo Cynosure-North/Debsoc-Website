@@ -1,5 +1,7 @@
 backend:
-  name: test-repo
+  name: git-gateway
+
+local_backend: true
 
 locale: en_nz
 logo_url: http://127.0.0.1:4000/images/logo.png
@@ -14,6 +16,11 @@ collections:
     label_singular: 'Post'
     folder: '_blog' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
+    sortable_fields:
+      fields: []
+      default:
+        field: 'commit_date'
+        direction: Descending
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog' }
@@ -32,7 +39,9 @@ collections:
             - font
             - unordered-list
             - ordered-list
-            # - shortcode     # TODO: Maybe add some?
+            # - shortcode
+              # - Link to other page (https://jekyllrb.com/docs/liquid/tags/#linking-to-posts)
+              # - Accordion?
             - label: Insert
               groups:
                 - items:
@@ -47,9 +56,14 @@ collections:
     label_singular: 'Event'
     folder: '_events'
     create: true
+    summary_fields: ['title', 'start', 'end']
+    sortable_fields:
+      fields: []
+      default:
+        field: start
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog' }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'event' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime', format: "yyyy-MM-dd x", date_format: "PPPP", time_format: false }
       - { label: 'Excerpt', name: 'excerpt', type: 'text' }
@@ -63,9 +77,15 @@ collections:
     label_singular: 'Resource'
     folder: '_resources'
     create: true
+    summary_fields: ['title', 'excerpt']
+    sortable_fields:
+      fields: ['commit_date', 'title']
+      default:
+        field: 'commit_date'
+        direction: Descending
     slug: '{{slug}}'
     fields: 
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog' }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'resource' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Cover Image', name: 'cover_image', widget: 'image' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime', format: "yyyy-MM-dd x", date_format: "PPPP", time_format: false }

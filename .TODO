@@ -15,4 +15,22 @@ Set up cron job to enable scheduled posts
 
 Search
 
-Image resizing/converting/compression
+Tagging?
+
+Ensure event end is after event start
+ - Default should be same start, grey out days before
+
+Declare variables like club time/location/contact details easily and propagate
+- https://www.staticcms.org/docs/collection-types#file-collections for misc pages
+
+Hall of fame explorer
+
+Improvements
+ - URL should link to home when editing, and to live site when on home
+ - There should be an option to change publish to submit
+ - Highlight posts which are scheduled to be published in the future
+ - Option to change publish button to submit or something
+    - Also hide publish and make new
+ - Resize/compress\downscale/crop images on upload
+ - list vs grid view is kinda useless. Maybe if theres's a cover image show it in grid view
+ - Show title in bold in list view

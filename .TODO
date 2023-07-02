@@ -25,6 +25,8 @@ Declare variables like club time/location/contact details easily and propagate
 
 Hall of fame explorer
 
+RSS feed?
+
 Improvements
  - URL should link to home when editing, and to live site when on home
  - There should be an option to change publish to submit
@@ -34,3 +36,4 @@ Improvements
  - Resize/compress\downscale/crop images on upload
  - list vs grid view is kinda useless. Maybe if theres's a cover image show it in grid view
  - Show title in bold in list view
+ - Visually distinguish drafts/scheduled posts in the future

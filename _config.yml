@@ -2,13 +2,17 @@ title: Vic Debsoc
 description: |-
   Victoria University of Wellington Debating Society
   Club Nights - KK303, 6:30pm, every Wednesday
-# TODO more?
-# twitter_username: vicdebsoc
+room: "KK303"
+time: "6:30"
+day: "Wednesday"
+signup_link: "https://forms.gle/Fa95xGR3PVTZzybq9"
+twitter_username: vicdebsoc
+url: "https://vicdebsoc.org.nz"
 
 #
 #   Technical Details below, only edit if you know what you're doing
 #   Jekyll Docs: https://jekyllrb.com/docs
-#   TODO CMS: TODO
+#   StaticJsCMS: https://www.staticcms.org/docs/intro
 #   Debsoc Docs: TODO
 #
 
@@ -18,19 +22,18 @@ safe: true
 collections:
   events:
     title: Events
-    permalink: /events/:path  # TODO, maybe something better?
-    sort_by: event-start  # TODO
+    permalink: /events/:year-:month-:day-:slug
+    sort_by: event-start
     output: true
   blog:
     title: Blog
-    permalink: /blog/:path # TODO
+    permalink: /blog/:year-:month-:day-:slug
     output: true
   resources:
     title: Resources
     permalink: /resources/:path
     output: true
 
-url: "https://vicdebsoc.org.nz"
 
 optional_front_matter: # https://github.com/benbalter/jekyll-optional-front-matter
   enabled: false  # We want to prevent errors, and enforce proper tagging
@@ -41,12 +44,4 @@ readme_index: # https://github.com/benbalter/jekyll-readme-index
 titles_from_headings: #https://github.com/benbalter/jekyll-titles-from-headings
   enabled: true
 
-
-jekyll_admin:
-  hidden_links:
-    - posts
-    - datafiles
-    - configuration
-
-# Build settings
-# TODO: RSS feed
+# https://github.com/avillafiorita/jekyll-datapage_gen

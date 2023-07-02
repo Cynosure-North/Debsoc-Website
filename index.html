@@ -1,6 +1,4 @@
 ---
-permalink: /index.html
-layout: default
 ---
 
 <style type="text/css" media="screen">
@@ -18,3 +16,24 @@ layout: default
 </style>
 
 <p>Hello World</p>
+
+{% for p in site.pages %}
+  <h2>
+    <a href="{{ p.url }}">
+      {{ p.name }}
+    </a>
+  </h2>
+{% endfor %}
+
+<ul>
+{% for col in site.collections %}
+  <li><b>{{ col.label }}</b>
+  <ul>
+  {% for post in col %}
+        <h2><a href="{{ post.url }}">{{ post.name }}</a></h2>
+      <p>{{ post.excerpt }}</p>
+  {% endfor %}
+  </ul>
+  </li>
+{% endfor %}
+</ul>

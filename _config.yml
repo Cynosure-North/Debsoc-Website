@@ -34,14 +34,9 @@ collections:
     permalink: /resources/:path
     output: true
 
-
-optional_front_matter: # https://github.com/benbalter/jekyll-optional-front-matter
-  enabled: false  # We want to prevent errors, and enforce proper tagging
-
-readme_index: # https://github.com/benbalter/jekyll-readme-index
-  enabled: false
-
-titles_from_headings: #https://github.com/benbalter/jekyll-titles-from-headings
-  enabled: true
-
 # https://github.com/avillafiorita/jekyll-datapage_gen
+page_gen-dirs: true
+page_gen:
+  - data: 'records_userprofile'
+    template: 'record-user'
+    name_expr: record['first_name'] + "_" + record['last_name']

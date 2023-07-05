@@ -35,8 +35,14 @@ collections:
     output: true
 
 # https://github.com/avillafiorita/jekyll-datapage_gen
-page_gen-dirs: true
+page_gen-dirs: false
 page_gen:
   - data: 'records_userprofile'
     template: 'record-user'
     name_expr: record['first_name'] + "_" + record['last_name']
+  
+  - date: 'records_tournamentevent'
+    template: 'record-user'   # TODO
+    name_expr: # TODO:
+      # I'd like for it to be tournamentName-year, but you can't bring in external data,
+      #  so maybe I just have tournament name then break it out by year, although that's a tad inelegant

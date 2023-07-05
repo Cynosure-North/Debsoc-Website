@@ -9,7 +9,7 @@ Shortcode?
 Accordion
 https://michaelcurrin.github.io/code-cookbook/recipes/jekyll/accordion.html
 
-CSS
+CSS/sass
 
 Set up cron job to enable scheduled posts
 
@@ -19,6 +19,7 @@ Tagging?
 
 Ensure event end is after event start
  - Default should be same start, grey out days before
+ - Probably use a premade datetime range picker
 
 Declare variables like club time/location/contact details easily and propagate
 - https://www.staticcms.org/docs/collection-types#file-collections for misc pages

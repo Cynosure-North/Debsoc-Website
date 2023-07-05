@@ -1,1 +1,1 @@
-TODO
+Domain name registered with regery.com, login is the contact@vicdebsoc google account

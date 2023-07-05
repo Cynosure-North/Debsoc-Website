@@ -91,3 +91,20 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime', format: "yyyy-MM-dd x", date_format: "PPPP", time_format: false }
       - { label: 'Excerpt', name: 'excerpt', type: 'text' }
       - *Markdown
+    
+  - name: 'pages'
+    label: 'Pages'
+    editor:
+      size: half
+    files:
+      - name: 'home'
+        label: 'Home'
+        file: '/index.html'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+      - name: 'about'
+        label: 'About'
+        file: '/about.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - *Markdown

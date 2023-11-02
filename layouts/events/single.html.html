@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en-nz">
+  <head>
+    {% include head.html %}
+    <meta name="description" content="{{ .Title }} ⸺ {{ .Date }} - {{ .ExpiryDate }}">
+    {{/* https://discourse.gohugo.io/t/how-to-handle-expired-posts/22915/3 */}}
+  </head>
+  <body>
+    {{ .Content }}
+  </body>
+</html>

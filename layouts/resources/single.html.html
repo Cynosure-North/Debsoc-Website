@@ -2,9 +2,9 @@
 <html lang="en-nz">
   <head>
     {% include head.html %}
-    <meta name="description" content="{{ content }}">
+    <meta name="description" content="{{ .Summary }}">
   </head>
   <body>
-    {{ content }}
+    {{ .Content }}
   </body>
 </html>

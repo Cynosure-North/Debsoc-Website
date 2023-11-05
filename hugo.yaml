@@ -1,14 +1,23 @@
 title: "Vic Debsoc"
 params:
+  # Unfortunately the details here ned to be filled in triplicate. Make sure to keep them consistent
   description: |-
     Victoria University of Wellington Debating Society
-    Club Nights - KK303, 6:30pm, every Wednesday
+    Club Nights - Every Wednesday – KK303 – 6:30pm
+  meeting_details: "Every Wednesday – KK303 – 6:30pm"
+  day: "Every Wednesday"
   room: "KK303"
-  time: "6:30 pm"
-  day: "Wednesday"
+  time: "6:30pm"
+
   signup_link: "https://forms.gle/Fa95xGR3PVTZzybq9"
-  twitter_username: vicdebsoc
-  url: "https://vicdebsoc.org.nz"
+
+  twitter: "https://www.twitter.com/vicdebsoc/"
+  facebook: "https://www.facebook.com/vicdebsoc/"
+  instagram: "https://www.instagram.com/vicdebsoc/"
+  discord: "https://discord.gg/tgT4fQTVax"
+  email: "contact@vicdebsoc.org.nz"
+    
+  test: '{{ .Param "day" }} – {{ .Param "room" }} – {{ .Param "time" }}'
 
 baseURL: "https://vicdebsoc.org.nz"
 
@@ -18,6 +27,8 @@ baseURL: "https://vicdebsoc.org.nz"
 #   StaticJsCMS: https://www.staticcms.org/docs/intro
 #   Debsoc Docs: TODO
 #
+#   Useful Resources
+#     https://www.smashingmagazine.com/2021/02/context-variables-hugo-static-site-generator/
 
 
 

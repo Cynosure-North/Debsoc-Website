@@ -14,7 +14,7 @@ collections:
   - name: 'blog' # Used in 
     label: 'Blog' # Used in the UI
     label_singular: 'Post'
-    folder: '_blog' # The path to the folder where the documents are stored
+    folder: 'content/blog' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     sortable_fields:
       fields: []
@@ -54,7 +54,7 @@ collections:
   - name: 'events'
     label: 'Events'
     label_singular: 'Event'
-    folder: '_events'
+    folder: 'content/events'
     create: true
     summary_fields: ['title', 'start', 'end']
     sortable_fields:
@@ -75,7 +75,7 @@ collections:
   - name: 'resources'
     label: 'Resources'
     label_singular: 'Resource'
-    folder: '_resources'
+    folder: 'content/resources'
     create: true
     summary_fields: ['title', 'excerpt']
     sortable_fields:

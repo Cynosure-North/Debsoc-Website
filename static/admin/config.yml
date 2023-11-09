@@ -1,11 +1,13 @@
 backend:
   name: git-gateway
 
-local_backend: true
+local_backend: 
+  allowed_hosts: ['localhost', '127.0.0.1', '192.168.50.172']
 
 locale: en_nz
-logo_url: http://127.0.0.1:4000/images/logo.png
-media_folder: 'images/uploads' # Media files will be stored in the repo under images/uploads
+logo_url: '/images/logo.png'
+media_folder: '/static/uploads'  # Where to store the uploads
+public_folder: '/uploads'         # Where they can be accessed from on the server
 
 editor:
   size: 'half'
@@ -99,12 +101,11 @@ collections:
     files:
       - name: 'home'
         label: 'Home'
-        file: '/index.html'
+        file: '/layouts/index.html.html'
         fields:
-          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Code', name: 'code', widget: 'code', default_language: 'html'}
       - name: 'about'
         label: 'About'
-        file: '/about.md'
+        file: '/content/about.md'
         fields:
-          - { label: 'Title', name: 'title', widget: 'string' }
           - *Markdown

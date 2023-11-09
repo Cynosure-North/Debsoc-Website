@@ -18,6 +18,26 @@
 
 * {
 	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+}
+
+
+strong { font-weight: 400;}
+html { scroll-behavior: smooth;}
+ol { 
+	list-style-type: decimal;
+
+	ol {
+		list-style-type: lower-alpha;
+		
+		ol {
+			list-style-type: lower-roman;
+			
+			ol {
+				list-style-type: upper-alpha;
+			}
+		}
+	}
 }
 
 body {
@@ -30,6 +50,7 @@ body {
 
 header {
 	position: absolute;
+	padding-top: 20px;
 	margin: 0 auto;
 	width: max(850px, 80%);
 
@@ -69,19 +90,24 @@ header {
 footer {
 	min-height: 200px;
 	background-color: var(--dark-green);
-	width: calc(100% - 2 * max(10%, 20px));
-	padding: 50px max(10%, 20px);
+	width: calc(100% - 100px);
+	padding: 50px;
 	
 	display: flex;
+	gap: 20px;
+	flex-wrap: wrap-reverse;
 	justify-content: center;
 	
 	#search {
 		flex: 2;
 		background: red;
+		min-width: 420px;
 	}
 	
 	#details {
 		flex: 1;
+		min-width: 280px;
+
 		display: flex;
 		flex-direction: column;
 		align-items: center;

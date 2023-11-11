@@ -51,7 +51,6 @@ body {
 header {
 	position: absolute;
 	padding-top: 20px;
-	margin: 0 auto;
 	width: max(850px, 80%);
 
 	display: flex;
@@ -61,16 +60,29 @@ header {
 	a {
 		text-decoration: none;
 	}
+	
+	#hamburger-container {
+		display: none;
+	}
 
-	h1 {
-		color: #fff;
-		font-size: 2em;
+	div {
+		width: fit-content;
+
+		a {
+			display: inline-block;
+			width: fit-content;
+
+			h1 {
+				color: #fff;	/* TODO */
+				font-size: 2em;
+			}
+		}
 	}
 	
-	#links {
+	nav {
 		a {
 			font-weight: 300;
-			color: #fff;
+			color: #fff;	/* TODO */
 			
 			margin-left: 17px;
 		}
@@ -84,7 +96,105 @@ header {
 			width: initial;
 		}
 	}
-	
+}
+
+@media (max-width: 900px) {		/* This block is all for the hamburger menu */
+	header {
+		width: 90%;
+
+		flex-direction: row-reverse;
+		
+		#title-container {		/* Center title */
+			z-index: 2;
+
+			position: absolute;
+			top: 20px;
+			width: 100%;
+
+			text-align: center;
+		}
+
+		#nav-container {
+			z-index: 1;
+
+			position: fixed;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+
+			transition: opacity 0.2s;
+			opacity: 0;
+			display: none;
+
+			background-color: var(--green);
+
+			nav {
+				display: flex;
+				flex-direction: column;
+				place-items: center;
+				justify-content: space-evenly;
+				
+				height: 80%;
+				margin-top: 20%;
+
+				font-size: 1.5em;
+				
+				a {
+					margin-left: 0;
+				}
+			}
+		}
+
+		#hamburger-container {
+			display: inline;
+			
+			#hamburger {
+				display: none;
+			}
+
+			label {
+				z-index: 2;	/* Must be on top */
+				position: relative;
+				top: 28px;
+
+				cursor: pointer;
+				filter: invert();
+				
+				
+				svg {
+					width: 35px;
+					height: 35px;
+				}
+			}
+			
+			#close {
+				display: none;
+			}
+
+			#hamburger:checked + label {
+				#open {
+					display: none;
+				}
+
+				#close {
+					display: block;
+				}
+			}
+			
+		}
+
+		&:has(#hamburger:checked) #nav-container {
+			opacity: 1;
+			display: block;
+		}
+	}
+
+	html:has(#hamburger:checked) {
+		margin: 0;
+		overflow-y: hidden;
+		height: 100%;
+	}
 }
 
 footer {
@@ -98,15 +208,17 @@ footer {
 	flex-wrap: wrap-reverse;
 	justify-content: center;
 	
+	
 	#search {
 		flex: 2;
+		min-width: 450px;
+
 		background: red;
-		min-width: 420px;
 	}
 	
 	#details {
 		flex: 1;
-		min-width: 280px;
+		min-width: 330px;
 
 		display: flex;
 		flex-direction: column;

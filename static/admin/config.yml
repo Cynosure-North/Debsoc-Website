@@ -1,13 +1,15 @@
 backend:
   name: git-gateway
 
-local_backend: 
+local_backend: # Uncomment for local dev
   allowed_hosts: ['localhost', '127.0.0.1', '192.168.50.172']
 
 locale: en_nz
 logo_url: '/images/logo.png'
 media_folder: '/static/uploads'  # Where to store the uploads
 public_folder: '/uploads'         # Where they can be accessed from on the server
+media_library:
+  folder_support: true
 
 editor:
   size: 'half'
@@ -27,7 +29,7 @@ collections:
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog' }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'publishDate', widget: 'datetime', format: "yyyy-MM-dd x", date_format: "PPPP", time_format: false }
+      - { label: 'Publish Date', name: 'publishDate', widget: 'datetime', format: "yyyy-MM-dd", date_format: "PPPP", time_format: false }
       - &Markdown
         label: 'Body'
         name: 'body'
@@ -97,15 +99,31 @@ collections:
   - name: 'pages'
     label: 'Pages'
     editor:
+      preview: false
       size: half
     files:
       - name: 'home'
         label: 'Home'
         file: '/layouts/index.html.html'
         fields:
-          - { label: 'Code', name: 'code', widget: 'code', default_language: 'html'}
+          - &Code { label: 'Code', name: 'body', widget: 'code'} # Can't figure out syntax highlighting :(
       - name: 'about'
         label: 'About'
         file: '/content/about.md'
         fields:
           - *Markdown
+      - name: 'sponsorship'
+        label: 'Sponsorship'
+        file: '/layouts/sponsorship.html'
+        fields:
+          - *Markdown
+      - name: 'contact'
+        label: 'Contact'
+        file: '/layouts/contact.html'
+        fields:
+          - *Code
+      - name: '404'
+        label: '404'
+        file: '/layouts/404.html'
+        fields:
+          - *Code

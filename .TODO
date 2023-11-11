@@ -17,6 +17,8 @@ Search
 
 Tagging?
 
+Skip navigation element
+
 Ensure event end is after event start
  - Default should be same start, grey out days before
  - Probably use a premade datetime range picker

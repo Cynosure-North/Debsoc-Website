@@ -64,6 +64,7 @@ header {
 
 	a {
 		text-decoration: none;
+		text-underline-offset: 10px;
 	}
 	
 	#hamburger, label {

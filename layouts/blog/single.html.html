@@ -1,10 +1,4 @@
-<!doctype html>
-<html lang="en-nz">
-  <head>
-    {% include head.html %}
-    <meta name="description" content="{{ .Content }}">
-  </head>
-  <body>
-    {{ .Content }}
-  </body>
-</html>
+{{ define "head" }}
+  {{ partial "partials/head.html" . }}
+  <meta name="description" content="{{ .Content }}">
+{{ end }}

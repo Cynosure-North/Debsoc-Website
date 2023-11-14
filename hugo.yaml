@@ -32,7 +32,6 @@ baseURL: "https://vicdebsoc.org.nz"
 
 
 
-languageCode: "en-nz"
 # timezone: UTC+12    # Time zones don't work inside the alpine container. It's probably not worth the hassle of solving. Something something western normativity
 enableInlineShortcodes: true
 paginate: 20

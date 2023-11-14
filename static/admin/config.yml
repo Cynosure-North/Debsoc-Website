@@ -15,8 +15,8 @@ editor:
   size: 'half'
 
 collections:
-  - name: 'blog' # Used in 
-    label: 'Blog' # Used in the UI
+  - label: 'Blog' # Used in the UI
+    name: 'blog' # Used as the key
     label_singular: 'Post'
     folder: 'content/blog' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -98,9 +98,6 @@ collections:
     
   - name: 'pages'
     label: 'Pages'
-    editor:
-      preview: false
-      size: half
     files:
       - name: 'home'
         label: 'Home'
@@ -114,9 +111,17 @@ collections:
           - *Markdown
       - name: 'sponsorship'
         label: 'Sponsorship'
-        file: '/layouts/sponsorship.html'
+        file: '/sponsorship.md'
         fields:
-          - *Markdown
+          - <<: *Markdown
+            label: 'Left block'
+            name: 'left-block'
+          - <<: *Markdown
+            label: 'Right block'
+            name: 'right-block'
+          - <<: *Markdown
+            label: 'End block'
+            name: 'end-block'
       - name: 'contact'
         label: 'Contact'
         file: '/layouts/contact.html'

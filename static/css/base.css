@@ -46,6 +46,11 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	top: 50px
+}
+
+#content {
+	padding-top: 200px
 }
 
 header {
@@ -61,7 +66,7 @@ header {
 		text-decoration: none;
 	}
 	
-	#hamburger-container {
+	#hamburger, label {
 		display: none;
 	}
 
@@ -105,10 +110,11 @@ header {
 		flex-direction: row-reverse;
 		
 		#title-container {		/* Center title */
-			z-index: 2;
+			z-index: 2;		/* For the effect where it remains in place as the menu fades in, may not be worth the hassle */
 
 			position: absolute;
 			top: 20px;
+			left: 0;
 			width: 100%;
 
 			text-align: center;
@@ -121,11 +127,11 @@ header {
 			left: 0;
 			top: 0;
 			width: 100%;
-			height: 100%;
+			height: 120%;
 
-			transition: opacity 0.2s;
 			opacity: 0;
-			display: none;
+			transition: opacity 0.2s;
+			pointer-events: none;
 
 			background-color: var(--green);
 
@@ -135,44 +141,51 @@ header {
 				place-items: center;
 				justify-content: space-evenly;
 				
-				height: 80%;
-				margin-top: 20%;
+				height: 75%;
+				margin-top: 100px;
 
 				font-size: 1.5em;
-				
+
 				a {
 					margin-left: 0;
 				}
 			}
 		}
 
-		#hamburger-container {
-			display: inline;
+		#hamburger {
+			display: initial;
+			opacity: 0;		/* It's invisible but can still be navigated to with the keyboard */
 			
-			#hamburger {
-				display: none;
+			&:focus-visible + label svg {
+				outline: auto;
 			}
+		}
 
-			label {
-				z-index: 2;	/* Must be on top */
-				position: relative;
-				top: 28px;
+		label {
+			z-index: 3;	/* NOTE: Must be on top */
+			display: block;
+			position: absolute;
+			top: 47px;
+			right: 0px;
 
-				cursor: pointer;
-				filter: invert();
-				
-				
-				svg {
-					width: 35px;
-					height: 35px;
-				}
-			}
+
+			cursor: pointer;
 			
 			#close {
 				display: none;
 			}
+			
+			svg {
+				width: 35px;
+				height: 35px;
+			}
+		}
 
-			#hamburger:checked + label {
+		#hamburger:checked {
+			+ label {
+				position: fixed;
+				right: inherit;
+				
 				#open {
 					display: none;
 				}
@@ -181,19 +194,16 @@ header {
 					display: block;
 				}
 			}
+
+			~ #nav-container {
+				opacity: 1;
+				pointer-events: initial;
+			}
 			
+			~ #title-container {
+				position: fixed;
+			}
 		}
-
-		&:has(#hamburger:checked) #nav-container {
-			opacity: 1;
-			display: block;
-		}
-	}
-
-	html:has(#hamburger:checked) {
-		margin: 0;
-		overflow-y: hidden;
-		height: 100%;
 	}
 }
 
@@ -205,34 +215,30 @@ footer {
 	
 	display: flex;
 	gap: 20px;
-	flex-wrap: wrap-reverse;
 	justify-content: center;
-	
 	
 	#search {
 		flex: 2;
-		min-width: 450px;
 
 		background: red;
 	}
 	
 	#details {
 		flex: 1;
-		min-width: 330px;
 
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 
 		h2 {
-			color: var(--inverted-font);
+			color: #fff;
 			font-size: 3em;
 			font-weight: 500;
 			margin: 0;
 		}
 		
 		p {
-			color: var(--inverted-font);
+			color: #fff;
 		}
 		
 		#links {
@@ -246,8 +252,20 @@ footer {
 
 }
 
+@media (max-width: 900px) {
+	footer {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+}
+
 h1 {
 	font-weight: 500;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 2em;
 }
 
 p {

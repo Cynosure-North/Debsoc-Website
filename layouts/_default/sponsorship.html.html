@@ -1,0 +1,54 @@
+{{ define "head" }}
+	{{ partial "partials/head.html" . }}
+	<style>
+		body {
+			background-color: #000;
+		}
+		
+		* {
+			color: #fff;
+		}
+		
+		h1 {
+			width: 100%;
+			text-align: center;
+
+			font-size: 3em;
+		}
+		
+		#main {
+			gap: 70px;
+			
+			div {
+				max-width: 500px;
+			}
+		}
+		
+		#contact {
+			padding-top: 50px;
+			max-width: 600px;
+			margin: 0 auto;
+			text-align: center;
+		}
+	</style>
+{{ end }}
+{{ define "main" }}
+	<div id="content">
+		<h1>Sponsorship</h1>
+		<div id="main" style="display: flex; flex-wrap:wrap">
+			<div>
+				<img src="#TODO">
+				{{ .Param "left-block" | markdownify }}
+			</div>
+			<div>
+				{{ .Param "right-block" | markdownify }}
+			</div>
+		</div>
+		<div id="contact">
+			{{ .Param "end-block" | markdownify }}
+		</div>
+	</div>
+{{ end }}
+{{ define "footer" }}
+	<!-- No footer -->
+{{ end }}

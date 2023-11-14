@@ -1,70 +1,66 @@
-<!DOCTYPE html>
-<html lang="{{ site.Language.LanguageCode }}">
-  <head>
-    {{ partial "partials/head.html" . }}
-    <link rel="stylesheet" href="/css/index.css">
-  </head>
-  <body>
-    {{ partial "partials/header.html" . }}
-    <div id="splash">
-      <div id="splash-text">
-        <h3> Learn to speak
-            Learn to convince
-            Learn to take the W
-        </h3>
-        <h4>{{ .Param "meeting_details" }}</h4>
-      </div>
-    </div>
-    <div id="home-grid">
-      <div>
-        <h2>See the sights*</h2>
-        <p>Our calendar is fille year round with trips and fun.</p>
-        <p>* The sights may be visible from the room where you are debating.</p>
-        <a class="button" href="/events.html">Lets Go!</a>
-      </div>
-        <img src="/images/home_flowers.jpg">
-        <img src="/images/home_leaf.jpg">
-      <div>
-        <h2>Get (your brain) swole</h2>
-        <p>If you're looking to develop your skills we have the resources you need to make it to the top.</p>
-        <a class="button" href="/resources.html">Show me</a>
-      </div>
-      <div>
-        <h2>Extra! Extra! Read all about us!</h2>
-        <p>We have a blog. We're impressed too.</p>
-        <a class="button" href="/blog.html">I'm interested...</a>
-      </div>
-      <div id="recent-blogs">
-        <ul>
-        {{ range where .Site.RegularPages "Section" "blog" | first 3 }}
-          <li>
-              <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-              <p>{{ .PublishDate.Format "2006-01-02" }}</p>
-          </li>
-        {{ end }}
-        </ul>
-      </div>
-      <div id="email">
-        <form action="https://vicdebsoc.us4.list-manage.com/subscribe/post?u=5cd1f194b69426619e2c705b8&amp;id=84695fd928&amp;f_id=0031c8ebf0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate">
-            <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required placeholder="email">
-            <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Sign Up">
+{{ define "head" }}
+  {{ partial "partials/head.html" . }}
+  <link rel="stylesheet" href="/css/index.css">
+{{ end }}
 
-            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups -->
-            <input style="position: absolute; left: -5000px;" aria-hidden="true" type="text" name="b_5cd1f194b69426619e2c705b8_84695fd928" tabindex="-1" value="">
-        </form>
-        <div id="mce-responses" class="clear foot"> <!-- IDK about their class names either -->
-            <div class="response" id="mce-error-response" style="display: none;"></div>
-            <div class="response" id="mce-success-response" style="display: none;"></div>
-        </div>
-        <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script> <!-- Generates warning. Ruining the perfection. @Mailchimp: Fix your shit -->
-        <script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='MMERGE3';ftypes[3]='text';fnames[4]='MMERGE4';ftypes[4]='text';fnames[5]='MMERGE5';ftypes[5]='text';fnames[6]='MMERGE6';ftypes[6]='text';fnames[7]='MMERGE7';ftypes[7]='text';fnames[8]='MMERGE8';ftypes[8]='text';fnames[9]='MMERGE9';ftypes[9]='text';fnames[10]='MMERGE10';ftypes[10]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-      </div>
-      <div>
-        <h2>Debate Fiend? Regular Person? Email Enjoyer?</h2>
-        <p>Join our mailing list to get updates about upcoming tournaments, social events, and more.</p>
-      </div>
-
+{{ define "main" }}
+  <div id="splash">
+    <div id="splash-text">
+      <h3> Learn to speak
+          Learn to convince
+          Learn to take the W
+      </h3>
+      <h4>{{ .Param "meeting_details" }}</h4>
     </div>
-  </body>
-  {{ partial "partials/footer.html" . }}
-</html>
+  </div>
+  <div id="home-grid">
+    <div>
+      <h2>See the sights*</h2>
+      <p>Our calendar is fille year round with trips and fun.</p>
+      <p>* The sights may be visible from the room where you are debating.</p>
+      <a class="button" href="/events.html">Lets Go!</a>
+    </div>
+      <img src="/images/home_flowers.jpg">
+      <img src="/images/home_leaf.jpg">
+    <div>
+      <h2>Get (your brain) swole</h2>
+      <p>If you're looking to develop your skills we have the resources you need to make it to the top.</p>
+      <a class="button" href="/resources.html">Show me</a>
+    </div>
+    <div>
+      <h2>Extra! Extra! Read all about us!</h2>
+      <p>We have a blog. We're impressed too.</p>
+      <a class="button" href="/blog.html">I'm interested...</a>
+    </div>
+    <div id="recent-blogs">
+      <ul>
+      {{ range where .Site.RegularPages "Section" "blog" | first 3 }}
+        <li>
+            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            <p>{{ .PublishDate.Format "2006-01-02" }}</p>
+        </li>
+      {{ end }}
+      </ul>
+    </div>
+    <div id="email">
+      <form action="https://vicdebsoc.us4.list-manage.com/subscribe/post?u=5cd1f194b69426619e2c705b8&amp;id=84695fd928&amp;f_id=0031c8ebf0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate">
+          <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required placeholder="email">
+          <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Sign Up">
+
+          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups -->
+          <input style="position: absolute; left: -5000px;" aria-hidden="true" type="text" name="b_5cd1f194b69426619e2c705b8_84695fd928" tabindex="-1" value="">
+      </form>
+      <div id="mce-responses" class="clear foot"> <!-- IDK about their class names either -->
+          <div class="response" id="mce-error-response" style="display: none;"></div>
+          <div class="response" id="mce-success-response" style="display: none;"></div>
+      </div>
+      <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script> <!-- Generates warning. Ruining the perfection. @Mailchimp: Fix your shit -->
+      <script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='MMERGE3';ftypes[3]='text';fnames[4]='MMERGE4';ftypes[4]='text';fnames[5]='MMERGE5';ftypes[5]='text';fnames[6]='MMERGE6';ftypes[6]='text';fnames[7]='MMERGE7';ftypes[7]='text';fnames[8]='MMERGE8';ftypes[8]='text';fnames[9]='MMERGE9';ftypes[9]='text';fnames[10]='MMERGE10';ftypes[10]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+    </div>
+    <div>
+      <h2>Debate Fiend? Regular Person? Email Enjoyer?</h2>
+      <p>Join our mailing list to get updates about upcoming tournaments, social events, and more.</p>
+    </div>
+
+  </div>
+{{ end }}

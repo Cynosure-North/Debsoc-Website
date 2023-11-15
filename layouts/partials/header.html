@@ -10,13 +10,12 @@
 	</div>
 	<div id="nav-container">
 		<nav>
-			{{/* The whole {{with .Site }} bit is to make the underline in the nav which shows the user their current section */}}
-			<a href="{{ ref . "/about" }}" {{ with .Site.GetPage "/about" }} {{ if or ($.IsAncestor .) (eq $ .) }}style="text-decoration: underline"{{ end }} {{ end }}>About</a>
-			<a href="{{ ref . "/resources" }}" {{ with .Site.GetPage "/resources" }} {{ if or ($.IsAncestor .) (eq $ .) }}style="text-decoration: underline"{{ end }} {{ end }}>Resources</a>
-			<a href="{{ ref . "/events" }}" {{ with .Site.GetPage "/events" }} {{ if or ($.IsAncestor .) (eq $ .) }}style="text-decoration: underline"{{ end }} {{ end }}>Events</a>
-			<a href="{{ ref . "/blog" }}" {{ with .Site.GetPage "/blog" }} {{ if or ($.IsAncestor .) (eq $ .) }}style="text-decoration: underline"{{ end }} {{ end }}>Blog</a>
-			<a href="{{ ref . "/sponsorship" }}" {{ with .Site.GetPage "/sponsorship" }} {{ if or ($.IsAncestor .) (eq $ .) }}style="text-decoration: underline"{{ end }} {{ end }}>Sponsorship</a>
-			<a href="{{ ref . "/contact" }}" {{ with .Site.GetPage "/contact" }} {{ if or ($.IsAncestor .) (eq $ .) }}style="text-decoration: underline"{{ end }} {{ end }}>Contact</a>
+			<a href="{{ ref . "/about" }}" {{ partial "nav-underline" (dict "context" . "path" "/about") | safeHTMLAttr }}>About</a>
+			<a href="{{ ref . "/resources" }}" {{ partial "nav-underline" (dict "context" . "path" "/resouces") | safeHTMLAttr }}>Resources</a>
+			<a href="{{ ref . "/events" }}" {{ partial "nav-underline" (dict "context" . "path" "/events") | safeHTMLAttr }}>Events</a>
+			<a href="{{ ref . "/blog" }}" {{ partial "nav-underline" (dict "context" . "path" "/blog") | safeHTMLAttr }}>Blog</a>
+			<a href="{{ ref . "/sponsorship" }}" {{ partial "nav-underline" (dict "context" . "path" "/sponsorship") | safeHTMLAttr }}>Sponsorship</a>
+			<a href="{{ ref . "/contact" }}" {{ partial "nav-underline" (dict "context" . "path" "/contact") | safeHTMLAttr }}>Contact</a>
 			<a href="{{ .Param "signup_link" }}" id="join" class="button">Join</a>
 		</nav>
 	</div>

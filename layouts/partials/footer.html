@@ -1,8 +1,16 @@
 <footer>
-	<div id="search">
-		{{/* TODO */}}
-		<p>Search Here</p>
-	</div>
+	{{/* https://pagefind.app/docs/ */}}
+	<script src="/pagefind/pagefind-ui.js"></script>
+	<script>
+		window.addEventListener('DOMContentLoaded', (event) => {
+			new PagefindUI({ 
+				element: "#search",
+				showSubResults: true,
+				showImages: false
+			});
+		});
+	</script>
+	<div id="search"> </div>
 	<div id="details">
 		<h2>
 			Vic Debsoc

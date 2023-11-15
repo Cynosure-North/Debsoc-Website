@@ -221,7 +221,32 @@ footer {
 	#search {
 		flex: 2;
 
-		background: red;
+		.pagefind-ui__form {
+			color: #fff;
+
+			&:focus-within {
+				background-color: var(--normal-background);
+				color: var(--normal-font);
+			}
+
+			.pagefind-ui__search-input {
+				padding: 15px;
+				width: 100%;
+				
+				background: transparent;
+				border: 1px solid #fff;
+
+				font-weight: 500;
+				color: inherit;
+				
+			}
+			
+			.pagefind-ui__search-clear,		/* Clear button */
+			.pagefind-ui__message			/* n results found message */
+			{
+				display: none;
+			}
+		}
 	}
 	
 	#details {

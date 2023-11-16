@@ -1,0 +1,50 @@
+{{ define "head" }}
+	{{ partial "head" . }}
+	<style>
+		body {
+			background-color: var(--green);
+			
+			color: #fff;
+			
+			#content {
+				padding-bottom: 150px;
+
+				a {
+					color: #fff;
+					text-decoration: none;
+					h1 {
+						padding-top: 0;
+						padding-bottom: 40px;
+						font-size: 3em;
+					}
+				}
+
+				#paginate-next {
+					position: absolute;
+					right: 200px;
+				}
+
+				#paginate-prev {
+					position: absolute;
+					left: 200px;
+				}
+			}
+		}
+	</style>
+{{ end }}
+
+{{ define "main" }}
+	<div id="content">
+		{{ range .Paginator.Pages.ByPublishDate.Reverse }}
+			<p>{{ .PublishDate | dateFormat "2006/01/02"}}</p>
+			<a href="{{ .Permalink }}" ><h1>{{ .Title }}</h1></a>
+		{{ end }}
+
+		{{ if .Paginator.HasNext }}
+			<a id="paginate-next" href="{{ .Paginator.Next.URL }}">Older Posts ⟶</a>
+		{{ end }}
+		{{ if .Paginator.HasPrev }}
+			<a id="paginate-prev" href="{{ .Paginator.Prev.URL }}">⟵ Newer Posts</a>
+		{{ end }}
+	</div>
+{{ end }}

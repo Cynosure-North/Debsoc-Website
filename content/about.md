@@ -1,4 +1,7 @@
 ---
+layout: about
+title: About
+url: /about
 ---
 
 The Society was formed in 1899, in anticipation of the opening of the new Victoria College, part of the then University of New Zealand. Students who formed the Debating Society also went on to form the Victoria Students’ Association.

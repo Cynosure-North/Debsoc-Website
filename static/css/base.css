@@ -50,7 +50,8 @@ body {
 }
 
 #content {
-	padding-top: 200px
+	padding-top: 200px;
+	width: min(900px, 90%)
 }
 
 header {
@@ -223,17 +224,13 @@ footer {
 
 		.pagefind-ui__form {
 			color: #fff;
-
-			&:focus-within {
-				background-color: var(--normal-background);
-				color: var(--normal-font);
-			}
+			background-color: transparent;
 
 			.pagefind-ui__search-input {
 				padding: 15px;
-				width: 100%;
+				width: calc(100% - 30px);
 				
-				background: transparent;
+				background-color: inherit;
 				border: 1px solid #fff;
 
 				font-weight: 500;
@@ -241,6 +238,15 @@ footer {
 				
 			}
 			
+			&:focus-within {
+				background-color: var(--normal-background);
+				color: var(--normal-font);
+				
+				.pagefind-ui__results-area {
+					padding-bottom: 10px;
+				}
+			}
+
 			.pagefind-ui__search-clear,		/* Clear button */
 			.pagefind-ui__message			/* n results found message */
 			{

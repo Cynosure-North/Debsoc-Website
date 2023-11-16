@@ -3,7 +3,7 @@ layout: blog
 title: Life Membership - Sayeqa Islam
 publishDate: 2008-10-08
 ---
-# SAYEQA ISLAM
+## SAYEQA ISLAM
 
 Nomination for Life Membership of the Victoria University of Wellington Debating Society
 
@@ -13,7 +13,7 @@ Nomination accepted by the Annual General Meeting of the  Society on 8 October 2
 
 Sayeqa is nominated for life membership because of her extraordinary debating achievements over a long period of time, her contribution to the Society and NZ debating through adjudication, and her work as a debating administrator and organiser.
 
-## Debating
+### Debating
 
 Sayeqa has had a long and distinguished debating career for the Victoria University of Wellington Debating Society. Sayeqa joined the Debating Society in 2000, having achieved success, as many Debsoccers do, at a school level for Wellington Girls’ College and the NZ Schools’ Debating Team. It took Sayeqa a while to really find her debating feet at University. The Society was going through a very successful period. Domestic debating was dominated by titans like Kevin Moar, Nicola Willis, Chelsea Payne, and Duncan Small and there were not many chances to shine.
 

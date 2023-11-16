@@ -3,7 +3,7 @@ layout: blog
 title: Life Membership - Kevin Moar
 publishDate: 2006-10-13
 ---
-# KEVIN MOAR
+## KEVIN MOAR
 
 Nomination for Life Membership of the Victoria University of Wellington Debating Society
 
@@ -15,7 +15,7 @@ Kevin Moar is a true legend of Debsoc and embodies all that is good about the Vi
 
 Kev first joined the Society when arriving at University in 1998, a fresh-faced ex-Scots College debater of no particular repute in the Premier A grade in Wellington. His great friend, Duncan Small, says: “Kev and I started debating at Vic in 1998 together. Neither of us had particularly auspicious starts, I don’t think that Kev was selected for his first Easters. He was great fun tho. Under the guidance of Graham Cameron (in his wild days), Rob, Matt, Chris, Hamish, Ange et al, Kev took to debating ’society’ like a duck to water. He lived over in Weir House, we got pissed as chooks. He had an exceptionally bad wardrobe and yellow tinted Lennon glasses.”
 
-## Debating
+### Debating
 
 Kev attended the Australasian Championships held in Wellington in 1998 and developed quickly as a debater thanks to the renowned Debsoc training programme. From 2000 to 2002 he formed part of the legendary “awesome foursome” (with Duncan Small, Chelsea Payne and Nikki Willis) that dominated New Zealand University debating, made Vic the most feared Society in the country and inspired countless school students to do debating at university – including this writer.
 
@@ -25,7 +25,7 @@ After a couple of near misses, he won Easters in 2001 and as a member of Vic 2 a
 
 Kev was also named as a member of the New Zealand Universities Prepared Debating Team in 2001. In 2003 Kevin won the Parliamentary Shield, the prize for premier grade adult debating in Wellington.
 
-## Adjudication
+### Adjudication
 
 It is probably in the field of adjudication that Kev has made his greatest mark in debating. Kevin won the Centennial Cup for Best Adjudicator in a NZU competition at Easters in 2003. He was the Chief Adjudicator of Joynt Scroll 2003 and the Chief Adjudicator of the inaugural Victoria University BP Tournament in 2004 and then also in 2005.
 
@@ -33,7 +33,7 @@ Kev has been a stalwart for Victoria, and New Zealand, at the World Universities
 
 At the Australasian Intervarsity Debating Championships his crowning achievement was being Chief Adjudicator of the largest Australs ever in Wellington earlier this year. He also judged the Grand Final in 2005 in Queensland.
 
-## Service
+### Service
 
 Kevin has given back to Vic Debsoc more than can be written in a short blurb. He has taken time to sit on the Debsoc committee at various times and provided valuable service there. However, it is the contribution that he has made outside of these committee roles that truly distinguish him and make life membership of the Society a worthy honour.
 

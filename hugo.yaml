@@ -35,21 +35,5 @@ baseURL: "https://vicdebsoc.org.nz"
 # timezone: UTC+12    # Time zones don't work inside the alpine container. It's probably not worth the hassle of solving. Something something western normativity
 enableInlineShortcodes: true
 paginate: 20
-  
-# https://gohugo.io/templates/menu-templates/
 
-
-# collections:
-#   events:
-#     title: Events
-#     permalink: /events/:year-:month-:day-:slug
-#     sort_by: event-start
-#     output: true
-#   blog:
-#     title: Blog
-#     permalink: /blog/:year-:month-:day-:slug
-#     output: true
-#   resources:
-#     title: Resources
-#     permalink: /resources/:path
-#     output: true
+pluralizeListTitles: "false"

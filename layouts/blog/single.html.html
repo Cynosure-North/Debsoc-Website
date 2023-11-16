@@ -1,4 +1,36 @@
 {{ define "head" }}
   {{ partial "head.html" . }}
   <meta name="description" content="{{ .Content }}">
+  <style>
+    body {
+      background-color: var(--green);
+      color: #fff;
+
+      #content {
+        padding-bottom: 150px;
+        width: min(700px, 90%);
+        line-height: 1.7;
+
+        h1 {
+          font-size: 4em;
+        }
+
+        h2 {
+        
+        }
+
+        h3 {
+          font-weight: 500;
+          font-size: 2em;
+        }
+      }
+    }
+  </style>
+{{ end }}
+
+{{ define "main" }}
+  <div id="content">
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Content }}</p>
+  </div>
 {{ end }}

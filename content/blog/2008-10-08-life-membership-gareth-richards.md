@@ -3,17 +3,17 @@ layout: blog
 title: LIfe Membership - Gareth Richards
 publishDate: 2008-10-08
 ---
-# GARETH RICHARDS
+## GARETH RICHARDS
 
 Nomination for Life Membership of the Victoria University of Wellington Debating Society
 
 Citation read by Christopher Bishop at the Annual General Meeting of the Society
 
-Wednesday 8 October 200
+Wednesday 8 October 2008
 
 Gareth is nominated for life membership of the Victoria University of Wellington Debating Society for outstanding debating and adjudication achievements, and superb service to the Society over a period of many years.
 
-## Debating
+### Debating
 
 Gareth joined the Society in 2002 as a fresh-faced Weir-House attending, ex-Palmy North Boys, ex-schools Nationals boy. Having won a handsome one out of five debates at Nationals the previous year and with an already unnatural affinity for the bottle I don’t imagine, looking back, Gareth thought he would scale the debating peaks he did. He was elected as the 1st year rep – except the President forgot to tell him when and where the committee met. His debating rescue came through Sayeqa Islam who hassled him enough until he attended the Pro-Am tournament, which he won. Joynt Scroll 2002 was also an unhappy experience, with an ill-prepared and dysfunctional team. A very young Gareth even missed the social functions – nobody told him they were on!
 
@@ -33,13 +33,13 @@ Joynt Scroll 2005 was disappointing for Gareth in a team-sense as Victoria One w
 
 The bulk of Gareth’s 2006 and 2007 were noticeably absent from competitive debating, although he did win Parliamentary Shield in 2007. Gareth made a successful comeback to debating at the tail end of 2007. He and I won the NZ BP Champs for the third time, and he won the best speaker prize for the first time. We went to our final Worlds quite confident of doing well and we broke 20th, after yet another near-death experience in the final round about medical ethics. Sadly we went out in the octo-finals, but Gareth finishes his Worlds career as one of only a few New Zealanders to break twice at Worlds. It has been an absolute pleasure debating and travelling with him to and at overseas tournaments.
 
-## Adjudication
+### Adjudication
 
 Gareth’s adjudicating debut came when he went to Easters on the North Shore in 2005. He took on the role of Camp Dad and was efficient in distributing berocca in the morning to the various log cabins/hovels we were sleeping in. This was a particularly debauched tournament when Gareth was at the height of his “Rareth” infamy. On the first day walking to Auckland “University” of Technology, Gareth spotted a McDonalds and made a big deal about saying we needed to go back there later because MacDos was delicious. Many people were confused later when on the way home Gareth again became excited about seeing the very same McDonalds. When it was pointed out that he had seen the same restaurant only a few hours earlier and said similar things Gareth ruefully admitted he could not recall such excitement. Indeed he found it hard to recall rounds one and two of the tournament (but he was judging Otago and Canterbury, so it was of no matter). Thankfully he was not a selector. Despite such alcohol-induced handicaps Gareth made it all the way as a judge to the the final of that Easters.
 
 After that (in)auspicious debut Gareth quickly gained a reputation as one of the best, and fairest judges on the New Zealand debating circuit. He won the Centennial Cup for Best Adjudicator at Easters 2006, where he also acted as a DCA, and he won the cup again at Joynt Scroll 2008. At Australs in Wellington in 2006 he was given the honour of adjudicating the Grand Final, and he remains one of only a few New Zealanders to have achieved such an honour. He was the CA of the NZ BP Champs at the end of 2006, and did so again in 2008. He has adjudicated the final of Joynt Scroll, been an NZUDC selector, assisted with trainees, written guides on how to accredit – in short, Gareth has done it all as an adjudicator, and always with a smile.
 
-## Service
+### Service
 
 After the afore-mentioned somewhat forgettable year as 1st year rep on the Society’s committee, Gareth rose through the Debsoc ranks: general exec in 2003, Vice-President in 2004, all the way to President in 2005. Gareth’s time as President is perhaps most notable for the decision to bid for the Australasian Intervarsity Debating Champs in July 2005 (which was held the next year, in 2006). It would be nice to say that this decision was taken rationally and calmly after full feasibility studies and investigation by the Society, but it was actually taken after Gareth and I stole a philosophy student’s bottle of Gin at one of Ranald’s famous Aurora Terrace parties, and were too embarrassed to back out after we’d told everyone we were bidding. Thankfully it all worked out well in the end.
 
@@ -47,7 +47,7 @@ Gareth played an absolutely vital role in the organisation of Australs in Wellin
 
 After finishing up with Debsoc administration Gareth went onto be Secretary-Treasurer of NZUDC for eighteen months, and was a NZUDC selector on a number of occasions. Then there are all the little, but bloody important, things: the Pro-Am “pro-ing” and judging, the selection of Vic teams for Easters, Joynt, and other tournaments, the sending around of emails to squad members with topic ideas for tournaments and his thoughts on current issues, and so much more.
 
-## Conclusion
+### Conclusion
 
 At time of writing in 2008, the Society holds ever domestic debating title in New Zealand, and the last three tournaments have all been Victoria v Victoria finals. We are breaking teams at Worlds and Australs regularly. The Society has more members than ever. We are active in the community. We are intensely competitive, but collegial and friendly.
 

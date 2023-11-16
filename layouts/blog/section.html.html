@@ -3,7 +3,6 @@
 	<style>
 		body {
 			background-color: var(--green);
-			
 			color: #fff;
 			
 			#content {
@@ -36,7 +35,7 @@
 {{ define "main" }}
 	<div id="content">
 		{{ range .Paginator.Pages.ByPublishDate.Reverse }}
-			<p>{{ .PublishDate | dateFormat "2006/01/02"}}</p>
+			<p>{{ .PublishDate | dateFormat "02/01/06"}}</p>
 			<a href="{{ .Permalink }}" ><h1>{{ .Title }}</h1></a>
 		{{ end }}
 

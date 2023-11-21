@@ -3,7 +3,7 @@ layout: resource
 title: Trainee Process FAQ
 cover_image: /uploads/f05.png
 publishDate: 2023-11-09 +13
-excerpt: Becoming a judge can be a difficult and confusing process. With this
+summary: Becoming a judge can be a difficult and confusing process. With this
   information you’ll be prepared to accredit.
 ---
 **Who is accrediting me?**

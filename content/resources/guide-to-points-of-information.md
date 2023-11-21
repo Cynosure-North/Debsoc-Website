@@ -3,7 +3,7 @@ layout: resource
 title: Guide to Points of Information
 cover_image: /uploads/logo.png
 publishDate: 2023-11-09 +13
-excerpt: Points of Information (POIs) can be an effective way to derail an
+summary: Points of Information (POIs) can be an effective way to derail an
   opposing speaker, or just waste their time.
 ---
 Points of Information (POIs) can be an effective way to derail an opposing speaker, or just waste their time.

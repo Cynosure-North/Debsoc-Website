@@ -3,7 +3,7 @@ layout: resource
 title: Past Members
 cover_image: /uploads/vanitas-still-life-pieter-claesz.jpg
 publishDate: 2023-11-09 +13
-excerpt: "Debsoc has a great number of past members who have gone on to top
+summary: "Debsoc has a great number of past members who have gone on to top
   various fields and become well known names around New Zealand and the world. "
 ---
 Debsoc has a great number of past members who have gone on to top various fields and become well known names around New Zealand and the world. A number of the most noteworthy former Debsoc members are listed below.

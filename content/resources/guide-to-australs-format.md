@@ -3,7 +3,7 @@ layout: resource
 title: Guide to Australs Format
 cover_image: /uploads/slide1.jpg
 publishDate: 2023-11-09 +13
-excerpt: Australs style debating is the most commonly known in New Zealand. It,
+summary: Australs style debating is the most commonly known in New Zealand. It,
   or close variants on it, are used often at school level debating.
 ---
 Also known as Schools, Joynt, or Asian Parliamentary.

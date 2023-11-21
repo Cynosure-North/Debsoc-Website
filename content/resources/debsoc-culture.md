@@ -3,7 +3,7 @@ layout: resource
 title: Debsoc Culture
 cover_image: /uploads/slide4.jpg
 publishDate: 2023-11-09 +13
-excerpt: A record of the culture of debsoc, as far as records go.
+summary: A record of the culture of debsoc, as far as records go.
 ---
 [Victoria ](https://www.youtube.com/watch?v=fmzLGVGZkVQ)by the Dance Exponents has been the traditional Debsoc song for many yeas now. Whether played from a cellphone marching along Christchurch streets at Easters, or requested for the band at Australs 2006 in the Duxton, or again at Australs 2012 in the Duxton, this song is one for rousing the spirits of the society.
 

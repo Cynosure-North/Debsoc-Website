@@ -10,6 +10,7 @@ params:
   time: "6:30pm"
 
   signup_link: "https://forms.gle/Fa95xGR3PVTZzybq9"
+  equity_form: "#TODO"
 
   twitter: "https://www.twitter.com/vicdebsoc/"
   facebook: "https://www.facebook.com/vicdebsoc/"
@@ -29,6 +30,8 @@ baseURL: "https://vicdebsoc.org.nz"
 #
 #   Useful Resources
 #     https://www.smashingmagazine.com/2021/02/context-variables-hugo-static-site-generator/
+#
+#     TODO: https://kevinquinn.fun/blog/creating-pages-from-data-programmatically-for-hugo/
 
 
 

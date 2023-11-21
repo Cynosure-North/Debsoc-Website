@@ -3,7 +3,7 @@ layout: resource
 title: Guide to British Parliamentary Format
 cover_image: /uploads/slide2.jpg
 publishDate: 2023-11-09 +13
-excerpt: British Parliamentary (BP) is the most challenging and unique style. It
+summary: British Parliamentary (BP) is the most challenging and unique style. It
   is the format that NZBP and Worlds use.
 ---
 Also known as BP.

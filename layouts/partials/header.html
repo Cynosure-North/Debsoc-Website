@@ -11,8 +11,8 @@
 	<div id="nav-container">
 		<nav>
 			<a href="{{ ref . "/about" }}" {{ partial "nav-underline" (dict "context" . "path" "/about") | safeHTMLAttr }}>About</a>
-			<a href="{{ ref . "/resources" }}" {{ partial "nav-underline" (dict "context" . "path" "/resouces") | safeHTMLAttr }}>Resources</a>
-			<a href="{{ ref . "/events" }}" {{ partial "nav-underline" (dict "context" . "path" "/events") | safeHTMLAttr }}>Events</a>
+			<a href="{{ ref . "/resources" }}" {{ partial "nav-underline" (dict "context" . "path" "/resources") | safeHTMLAttr }}>Resources</a>
+			{{/* TODO <a href="{{ ref . "/events" }}" {{ partial "nav-underline" (dict "context" . "path" "/events") | safeHTMLAttr }}>Events</a>  */}}
 			<a href="{{ ref . "/blog" }}" {{ partial "nav-underline" (dict "context" . "path" "/blog") | safeHTMLAttr }}>Blog</a>
 			<a href="{{ ref . "/sponsorship" }}" {{ partial "nav-underline" (dict "context" . "path" "/sponsorship") | safeHTMLAttr }}>Sponsorship</a>
 			<a href="{{ ref . "/contact" }}" {{ partial "nav-underline" (dict "context" . "path" "/contact") | safeHTMLAttr }}>Contact</a>

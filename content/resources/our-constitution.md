@@ -1,598 +1,73 @@
 ---
-"0": P
-"1": r
-"2": e
-"3": a
-"4": m
-"5": b
-"6": l
-"7": e
-"8": "\n"
-"9": T
-"10": h
-"11": e
-"12": " "
-"13": C
-"14": o
-"15": n
-"16": s
-"17": t
-"18": i
-"19": t
-"20": u
-"21": t
-"22": i
-"23": o
-"24": n
-"25": " "
-"26": o
-"27": f
-"28": " "
-"29": t
-"30": h
-"31": e
-"32": " "
-"33": V
-"34": i
-"35": c
-"36": t
-"37": o
-"38": r
-"39": i
-"40": a
-"41": " "
-"42": U
-"43": n
-"44": i
-"45": v
-"46": e
-"47": r
-"48": s
-"49": i
-"50": t
-"51": y
-"52": " "
-"53": o
-"54": f
-"55": " "
-"56": W
-"57": e
-"58": l
-"59": l
-"60": i
-"61": n
-"62": g
-"63": t
-"64": o
-"65": n
-"66": " "
-"67": D
-"68": e
-"69": b
-"70": a
-"71": t
-"72": i
-"73": n
-"74": g
-"75": " "
-"76": S
-"77": o
-"78": c
-"79": i
-"80": e
-"81": t
-"82": y
-"83": ","
-"84": " "
-"85": T
-"86": e
-"87": " "
-"88": R
-"89": o
-"90": o
-"91": p
-"92": u
-"93": " "
-"94": T
-"95": a
-"96": u
-"97": k
-"98": u
-"99": m
-"100": e
-"101": k
-"102": u
-"103": m
-"104": e
-"105": " "
-"106": o
-"107": " "
-"108": t
-"109": e
-"110": " "
-"111": W
-"112": h
-"113": a
-"114": r
-"115": e
-"116": " "
-"117": W
-"118": a
-"119": n
-"120": o
-"121": a
-"122": n
-"123": g
-"124": a
-"125": " "
-"126": o
-"127": " "
-"128": t
-"129": e
-"130": " "
-"131": U
-"132": p
-"133": o
-"134": k
-"135": o
-"136": " "
-"137": o
-"138": " "
-"139": t
-"140": e
-"141": " "
-"142": I
-"143": k
-"144": a
-"145": " "
-"146": a
-"147": " "
-"148": M
-"149": a
-"150": u
-"151": i
-"152": " "
-"153": I
-"154": n
-"155": c
-"156": o
-"157": r
-"158": p
-"159": o
-"160": r
-"161": a
-"162": t
-"163": e
-"164": d
-"165": "\n"
-"166": "["
-"167": C
-"168": o
-"169": m
-"170": m
-"171": o
-"172": n
-"173": " "
-"174": S
-"175": e
-"176": a
-"177": l
-"178": "]"
-"179": "\n"
-"180": e
-"181": s
-"182": t
-"183": .
-"184": " "
-"185": "1"
-"186": "8"
-"187": "9"
-"188": "9"
-"189": "\n"
-"190": A
-"191": d
-"192": o
-"193": p
-"194": t
-"195": e
-"196": d
-"197": " "
-"198": T
-"199": h
-"200": i
-"201": s
-"202": " "
-"203": "2"
-"204": "8"
-"205": " "
-"206": d
-"207": a
-"208": y
-"209": " "
-"210": o
-"211": f
-"212": " "
-"213": J
-"214": u
-"215": l
-"216": y
-"217": " "
-"218": "2"
-"219": "0"
-"220": "0"
-"221": "5"
-"222": "\n"
-"223": S
-"224": i
-"225": g
-"226": n
-"227": e
-"228": d
-"229": " "
-"230": " "
-"231": " "
-"232": " "
-"233": " "
-"234": " "
-"235": " "
-"236": " "
-"237": " "
-"238": " "
-"239": " "
-"240": " "
-"241": " "
-"242": " "
-"243": " "
-"244": " "
-"245": " "
-"246": " "
-"247": " "
-"248": " "
-"249": " "
-"250": " "
-"251": " "
-"252": " "
-"253": " "
-"254": " "
-"255": " "
-"256": " "
-"257": " "
-"258": " "
-"259": " "
-"260": " "
-"261": " "
-"262": " "
-"263": " "
-"264": " "
-"265": " "
-"266": S
-"267": i
-"268": g
-"269": n
-"270": e
-"271": d
-"272": "\n"
-"273": G
-"274": a
-"275": r
-"276": e
-"277": t
-"278": h
-"279": " "
-"280": R
-"281": i
-"282": c
-"283": h
-"284": a
-"285": r
-"286": d
-"287": s
-"288": " "
-"289": " "
-"290": " "
-"291": " "
-"292": " "
-"293": " "
-"294": " "
-"295": " "
-"296": " "
-"297": " "
-"298": " "
-"299": " "
-"300": " "
-"301": " "
-"302": " "
-"303": " "
-"304": " "
-"305": " "
-"306": " "
-"307": " "
-"308": J
-"309": o
-"310": s
-"311": e
-"312": p
-"313": h
-"314": " "
-"315": C
-"316": o
-"317": n
-"318": n
-"319": e
-"320": l
-"321": l
-"322": " "
-"323": P
-"324": r
-"325": e
-"326": s
-"327": i
-"328": d
-"329": e
-"330": n
-"331": t
-"332": " "
-"333": " "
-"334": " "
-"335": " "
-"336": " "
-"337": " "
-"338": " "
-"339": " "
-"340": " "
-"341": " "
-"342": " "
-"343": " "
-"344": " "
-"345": " "
-"346": " "
-"347": " "
-"348": " "
-"349": " "
-"350": " "
-"351": " "
-"352": " "
-"353": " "
-"354": " "
-"355": " "
-"356": " "
-"357": " "
-"358": " "
-"359": " "
-"360": " "
-"361": " "
-"362": " "
-"363": " "
-"364": " "
-"365": V
-"366": i
-"367": c
-"368": e
-"369": "-"
-"370": P
-"371": r
-"372": e
-"373": s
-"374": i
-"375": d
-"376": e
-"377": n
-"378": t
-"379": "\n"
-"380": F
-"381": o
-"382": r
-"383": " "
-"384": a
-"385": n
-"386": d
-"387": " "
-"388": o
-"389": n
-"390": " "
-"391": b
-"392": e
-"393": h
-"394": a
-"395": l
-"396": f
-"397": " "
-"398": o
-"399": f
-"400": " "
-"401": t
-"402": h
-"403": e
-"404": " "
-"405": V
-"406": i
-"407": c
-"408": t
-"409": o
-"410": r
-"411": i
-"412": a
-"413": " "
-"414": U
-"415": n
-"416": i
-"417": v
-"418": e
-"419": r
-"420": s
-"421": i
-"422": t
-"423": y
-"424": " "
-"425": o
-"426": f
-"427": " "
-"428": W
-"429": e
-"430": l
-"431": l
-"432": i
-"433": n
-"434": g
-"435": t
-"436": o
-"437": n
-"438": " "
-"439": D
-"440": e
-"441": b
-"442": a
-"443": t
-"444": i
-"445": n
-"446": g
-"447": " "
-"448": S
-"449": o
-"450": c
-"451": i
-"452": e
-"453": t
-"454": y
-"455": ","
-"456": " "
-"457": T
-"458": e
-"459": " "
-"460": R
-"461": o
-"462": o
-"463": p
-"464": u
-"465": " "
-"466": T
-"467": a
-"468": u
-"469": k
-"470": u
-"471": m
-"472": e
-"473": k
-"474": u
-"475": m
-"476": e
-"477": " "
-"478": o
-"479": " "
-"480": t
-"481": e
-"482": " "
-"483": W
-"484": h
-"485": a
-"486": r
-"487": e
-"488": " "
-"489": W
-"490": a
-"491": n
-"492": a
-"493": n
-"494": g
-"495": a
-"496": " "
-"497": o
-"498": " "
-"499": t
-"500": e
-"501": " "
-"502": U
-"503": p
-"504": o
-"505": k
-"506": o
-"507": " "
-"508": o
-"509": " "
-"510": t
-"511": e
-"512": " "
-"513": I
-"514": k
-"515": a
-"516": " "
-"517": a
-"518": " "
-"519": M
-"520": a
-"521": u
-"522": i
-"523": " "
-"524": I
-"525": n
-"526": c
-"527": o
-"528": r
-"529": p
-"530": o
-"531": r
-"532": a
-"533": t
-"534": e
-"535": d
-"536": .
-"537": "\n"
-"538": "["
-"539": c
-"540": o
-"541": m
-"542": m
-"543": o
-"544": n
-"545": " "
-"546": s
-"547": e
-"548": a
-"549": l
-"550": "]"
 layout: resource
 title: Our Constitution
 cover_image: /uploads/waikato-manukau_sheet-_the_treaty_of_waitangi.jpg
 publishDate: 2023-11-09 +13
-excerpt: The rules that govern debsoc. You probably don’t need to read this.
+summary: The rules that govern debsoc. You probably don’t need to read this.
 ---
 
-1. **Name**THE VICTORIA UNIVERSITY OF WELLINGTON DEBATING SOCIETY, TE PAEMANU O TE HERENGA WAKA INCORPORATED, hereinafter referred to as “the Society”.
-   1. The name of the society is:
+The Constitution of the Victoria University of Wellington Debating Society, Te Roopu Taukumekume o te Whare Wanoanga o te Upoko o te Ika a Maui Incorporated
+
+[Common Seal]
+
+est. 1899
+
+
+
+Adopted
+This 28 day of July 2005
+
+
+Signed                             Signed
+
+Gareth Richards                    Joseph Connell
+President                          Vice-President
+
+
+For and on behalf of the Victoria University of Wellington Debating Society, Te Roopu Taukumekume o te Whare Wananga o te Upoko o te Ika a Maui Incorporated.
+
+
+
+[common seal]
+
+
+1. **Name**
+   1. The name of the society is:  
+   THE VICTORIA UNIVERSITY OF WELLINGTON DEBATING SOCIETY, TE PAEMANU O TE HERENGA WAKA INCORPORATED, hereinafter referred to as “the Society”.
 1. **Objects**
    1. The objects of the society are:
       1. To take over the effects and liabilities of the existing unincorporated society known as the Victoria University Debating Society.
-      1. To foster and promote debating and public speaking among students at Victoria University and to further the interests of the society in Wellington and elsewhere.
-      1. To arrange, conduct and assist in the arranging and conducting of debating and public speaking contests and events.
-      1. To do all such things as are incidental or conducive to the attainment of the above objects and for this purpose to have all or any of the powers set forth in the following Article 3.
+      2. To foster and promote debating and public speaking among students at Victoria University and to further the interests of the society in Wellington and elsewhere.
+      3. To arrange, conduct and assist in the arranging and conducting of debating and public speaking contests and events.
+      4. To do all such things as are incidental or conducive to the attainment of the above objects and for this purpose to have all or any of the powers set forth in the following Article 3.
 1. **Powers**
    1. The Society shall possess the following powers:
       1. To conduct, control, and administer the Plunket Medal Oratory contest, the Union prize competition, and any other debating or public speaking contest or competition, which may be established, and the control of which is vested in the Society.
-      1. To co-operate or affiliate with any other organisation having objects altogether or in part similar to those of the Society.
-      1. To participate in any debating or public speaking contest or event, and to select representative individuals or teams for this purpose.
-      1. To purchase, lease, hire, or by any other means acquire any property or rights.
-      1. To sell, hire, exchange, manage, improve, develop, or otherwise deal will all, or any part of, the property or rights of the Society, or in which the Society has, or may hereinafter have, any beneficial interest, and to raise money on the security of the same.
-      1. To invest such of the Society’s funds as are not required for the immediate use of the Society.
-      1. To borrow, or raise money in such a manner as shall be deemed expedient, which may include the issue of debentures, bonds, or mortgages, bank overdraft, or any other security, which may be founded or charged if need be, upon the floating assets or upon all or any of the property and rights of the Society, present or future.
-      1. To guarantee the payment of money or the performance of obligations by or to otherwise assist any person or organisation, where those obligations relate to the Society’s objects and which will lead to no pecuniary profit for any member.
-      1. To appoint trustees to all or any of the funds or property of the Society, and to vest such funds or property in such trustees.
-      1. To engage any such persons whose services may be deemed necessary or convenient for the purposes of the society’s objects, provided always that:
+      2. To co-operate or affiliate with any other organisation having objects altogether or in part similar to those of the Society.
+      3. To participate in any debating or public speaking contest or event, and to select representative individuals or teams for this purpose.
+      4. To purchase, lease, hire, or by any other means acquire any property or rights.
+      5. To sell, hire, exchange, manage, improve, develop, or otherwise deal will all, or any part of, the property or rights of the Society, or in which the Society has, or may hereinafter have, any beneficial interest, and to raise money on the security of the same.
+      6. To invest such of the Society’s funds as are not required for the immediate use of the Society.
+      7. To borrow, or raise money in such a manner as shall be deemed expedient, which may include the issue of debentures, bonds, or mortgages, bank overdraft, or any other security, which may be founded or charged if need be, upon the floating assets or upon all or any of the property and rights of the Society, present or future.
+      8. To guarantee the payment of money or the performance of obligations by or to otherwise assist any person or organisation, where those obligations relate to the Society’s objects and which will lead to no pecuniary profit for any member.
+      9. To appoint trustees to all or any of the funds or property of the Society, and to vest such funds or property in such trustees.
+      10. To engage any such persons whose services may be deemed necessary or convenient for the purposes of the society’s objects, provided always that:
          1. No member of the Society or any person associated with a member shall participate in or materially influence any decision made by the Society in respect of the payment to or on behalf of that member or associated person of any income, benefit, or advantage whatsoever.
-         1. Any such income paid shall be reasonable and relative to that which would be paid in an arm’s length transaction (being the open market value).  The provisions and effect of this clause shall not be removed from this document, and shall be included and implied into any document replacing this document.
+         2. Any such income paid shall be reasonable and relative to that which would be paid in an arm’s length transaction (being the open market value).  The provisions and effect of this clause shall not be removed from this document, and shall be included and implied into any document replacing this document.
 1. **Membership**
    1. Ordinary Membership
       1. Application for membership shall be made in writing and in such form as the Committee may from time to time specify and shall be made to the Secretary.
-      1. Any person shall be eligible for ordinary membership of the society who:
+      2. Any person shall be eligible for ordinary membership of the society who:
          1. Is a person falling within one of the persons or classes of persons referred to in s3(2) of the Victoria University of Wellington Act 1961; AND
-         1. Is enrolled as a student at the Victoria University of Wellington (“the University”) and at the time of application is in the opinion of the Committee, the composition of which is detailed in article 7, then attending the University as a graduate or undergraduate student. The Committee may accept as sufficient compliance with this requirement any declaration by a student that they are enrolled as a student and that either:
+         2. Is enrolled as a student at the Victoria University of Wellington (“the University”) and at the time of application is in the opinion of the Committee, the composition of which is detailed in article 7, then attending the University as a graduate or undergraduate student. The Committee may accept as sufficient compliance with this requirement any declaration by a student that they are enrolled as a student and that either:
             1. they are currently attending the University as a student; OR
-            1. they have at any time in the immediately preceding 6 months attended the University as a student; OR
-            1. they intend to study at the University as a student within the next 3 months.
-   1. Non-Student Membership
+            2. they have at any time in the immediately preceding 6 months attended the University as a student; OR
+            3. they intend to study at the University as a student within the next 3 months.
+   2. Non-Student Membership
       1. Application for non-student membership shall be made to the Secretary.
-      1. Any person shall be eligible for non-student membership of the Society. However their membership may be declined by a majority motion of the Committee within two weeks of their signing up.
-      1. Any non-student member may resign from the Society by notification to the Secretary of the Society.
-      1. Non-student members shall be entitled to attendance and speaking rights at General Meetings of the Society. Non-student members possess voting rights within the Society, but shall be barred from holding any office excepting that of Patron.
+      2. Any person shall be eligible for non-student membership of the Society. However their membership may be declined by a majority motion of the Committee within two weeks of their signing up.
+      3. Any non-student member may resign from the Society by notification to the Secretary of the Society.
+      4. Non-student members shall be entitled to attendance and speaking rights at General Meetings of the Society. Non-student members possess voting rights within the Society, but shall be barred from holding any office excepting that of Patron.
    1. Payment of Membership
       1. All ordinary and non-student members must pay the annual subscription fee in order to be a member of the society.
       1. The annual subscription fee for membership is determined by the committee.

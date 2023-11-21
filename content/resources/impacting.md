@@ -3,7 +3,7 @@ layout: resource
 title: Impacting
 cover_image: /uploads/iu2.jpeg
 publishDate: 2023-11-09 +13
-excerpt: "Impacting, also known as weighing, is an important part of winning a
+summary: "Impacting, also known as weighing, is an important part of winning a
   debate. Once you have explained why an outcome is likely to happen, you need
   to explain why the adjudicator should care. "
 ---

@@ -3,7 +3,7 @@ layout: resource
 title: Hall of Fame
 cover_image: /uploads/1600px-alexander_iii_and_maria_fedorovna-s_coronation_by_g.becker.jpg
 publishDate: 2023-11-09 +13
-excerpt: Vic Debsoc has a long and incredibly successful history. Here we
+summary: Vic Debsoc has a long and incredibly successful history. Here we
   remember our most successful members.
 ---
 # New Zealand Tournamnts

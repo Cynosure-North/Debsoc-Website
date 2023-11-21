@@ -3,7 +3,7 @@ layout: resource
 title: Guide to Officers Format
 cover_image: /uploads/there-is-no-slide-3.jpg
 publishDate: 2023-11-09 +13
-excerpt: Officers style debates are famed for being quick and a lot of fun.
+summary: Officers style debates are famed for being quick and a lot of fun.
 ---
 Also known as Impromptu, or Easters.
 

@@ -3,7 +3,7 @@ layout: resource
 title: Jargon
 cover_image: /uploads/teacher.jpg
 publishDate: 2023-11-09 +13
-excerpt: ‘An extensive specialized vocabulary exists to describe these
+summary: ‘An extensive specialized vocabulary exists to describe these
   relatively ordinary events.’ - Sally Rooney
 ---
 # Basic Terms

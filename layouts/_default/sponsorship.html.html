@@ -3,33 +3,39 @@
 	<style>
 		body {
 			background-color: #000;
-		}
-		
-		* {
-			color: #fff;
-		}
-		
-		h1 {
-			width: 100%;
-			text-align: center;
 
-			font-size: 3em;
-		}
-		
-		#main {
-			gap: 100px;
+			*, a {
+				color: #fff;
+			}
 			
-			div {
-				max-width: 500px;
+			#content {
+				width: min(1100px, 90%);
+				
+				h1 {
+					width: 100%;
+					text-align: center;
+
+					font-size: 3em;
+				}
+
+				#main {
+					justify-content: center;
+					gap: 100px;
+					
+					div {
+						max-width: 500px;
+					}
+				}
+				
+				#contact {
+					padding-top: 50px;
+					max-width: 600px;
+					margin: 0 auto;
+					text-align: center;
+				}
 			}
 		}
 		
-		#contact {
-			padding-top: 50px;
-			max-width: 600px;
-			margin: 0 auto;
-			text-align: center;
-		}
 	</style>
 {{ end }}
 {{ define "main" }}

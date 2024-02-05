@@ -1,6 +1,0 @@
-{{ $currentPage := .context }}
-{{ $path := .context.Site.GetPage .path }}
-
-{{ if and (not $currentPage.IsHome) (or (eq $path $currentPage) ($path.IsAncestor $currentPage)) }}
-	style="text-decoration: underline"
-{{ end }}
